@@ -30,7 +30,10 @@ return max(pick,leave);
 
 
 }
-
+int suzan(int s)
+{
+    return s+3;
+}
 int main()
 {
 
@@ -38,7 +41,7 @@ int main()
     for(int i=0; i<n; i++)
         cin>>a[i];
 
-        cout<<rec(0,0,1);
+        cout<<rec(0,0,1)<<" "<<suzan(3);
 
 
 
